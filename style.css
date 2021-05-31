@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    min-height: 10vh;
+
+}
+.landing{
+    width: 98.7vw;
+    height: 100vh;
+    /* height: 742.68px; */
+    background: rgba(34, 31, 188, 0.46);
+}
+.navlink{
+    display: flex;
+    list-style: none;
+    margin-right: 3rem;
+}  
+.navlink li{
+    padding-left: 7rem;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+} 
+
+.first{
+    margin-left: 100px;
+    /* padding-top: 20px; */
+}
+
+.big-text{
+    margin-top: 100px;
+    font-family: 'Freckle Face', cursive;
+    color: #FAFAFA;
+    /* border: 3px solid #000000; */
+    /* text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 55px;
+    /* -webkit-text-stroke: 3px solid #000000; */
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+    animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+.sub-text{
+    margin-top:20px;
+    max-width: 40rem; 
+    font-weight: normal; 
+    font-size: 20px; 
+    padding-top: 30px;
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+    animation: zoomIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 4s;
+    
+}
+
+.image{
+    position: absolute;
+    width: 641px;
+    height: 399px;
+    left: 670px;
+    top: 152px;
+    background: url('IMAGES/27795 [Converted] 1-4.png');
+}
+
+/* .rectangle{
+    position: absolute;
+width: 100vw;
+height: 326.86px;
+left: 0px;
+top: 742.68px;
+
+background: rgba(34, 31, 188, 0.13);
+transform: rotate(-180deg);
+} */
+
+.button{
+    /* position: absolute; */
+width: 267px;
+height: 56px;
+/* top: 477px; */
+
+margin-top: 30px;
+background: rgba(227, 227, 237, 0.72);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+font-family: "Poppins", sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+
+color: #221FBC;
+
+}
+
+.page-two{
+    background: #E5E5E5;
+    width: 98.7vw;
+    height: 130vh;
+}
+
+.intro-text{
+    position: absolute;
+width: 237px;
+height: 49px;
+left: 602px;
+top: 710px;
+font-family: Freckle Face;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 49px;
+display: flex;
+align-items: flex-end;
+text-align: center;
+color: rgba(34, 31, 188, 0.85);
+text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+/* padding-top: 40px;
+padding-left: 530px; */
+}
+
+.underline{
+    position: absolute;
+width: 107px;
+height: 0px;
+left: 661px;
+top: 769px;
+
+border: 9px solid #28284B;
+}
+
+.image-two{
+    position: absolute;
+width: 277px;
+height: 390px;
+left: 582px;
+top: 820px;
+    background: url('IMAGES/Asset\ 7@4x-1.png');
+}
+
+.text{
+position: absolute;
+width: 332px;
+height: 122px;
+left: 554px;
+top: 1230px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+
+color: #000000;
+}
+
+.right-arrow{
+    position: absolute;
+    left: 89.58%;
+    right: 7.48%;
+    top: 1040px;
+    Width:42.28px;
+    Height: 59px;
+    transition: transform 0.1s;
+}
+
+.left-arrow{
+    position: absolute;
+left: 136px;
+right: 7.48%;
+top: 1040px;
+Width:42.28px;
+Height: 59px;
+transition: transform 0.1s;
+}
+
+.left-arrow:hover{
+    cursor: pointer;
+    transform: scale(2.5);
+}
+
+.right-arrow:hover{
+    cursor:pointer;
+    transform:scale(2.5);
+}
+
+.right-arrow:active{
+    transform: scale(1.5);
+}
+.left-arrow:active{
+    transform: scale(1.5);
+}
+
+
+.read-more{
+    position: absolute;
+width: 143px;
+height: 36px;
+left: 628px;
+top: 1345px;
+
+background: #221FBC;
+border-radius: 15px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.about{
+    background: #E5E5E5;
+    width: 98.7vw;
+    height: 100vh;
+}
+
+.intro-line{
+    position: absolute;
+    width: 166px;
+    height: 74px;
+    left: 634px;
+    top: 1533px;
+    font-family: Freckle Face;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+line-height: 74px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: rgba(34, 31, 188, 0.85);
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+    text-transform: uppercase;
+}
+
+.underline-two{
+    position: absolute;
+    width: 107px;
+    height: 0px;
+    left: 661px;
+    top: 1628px;
+
+border: 9px solid #28284B;
+}
+
+.text-two{
+    
+position: absolute;
+width: 899px;
+height: 226px;
+left: 279px;
+top: 1704px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+
+color: #000000;
+
+}
+
+.page-three{
+    background-color: rgba(34, 31, 188, 0.6);
+    height: 50vh;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    min-height: 10vh;
+}
+footer .navlink-one{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-right: 1rem;
+}
+
+.navlink-one li{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+padding-left: 6rem;
+padding-top: 18rem;
+}
+
+hr{
+    color: white;
+}
